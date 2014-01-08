@@ -1,0 +1,36 @@
+{
+  "name": "es6-generators-example",
+  "version": "0.0.0",
+  "description": "Using Nodejs ES6 generators today example",
+  "main": "pick-ecmascript.js",
+  "scripts": {
+    "test": "node --harmony pick-ecmascript.js",
+    "start": "node --harmony pick-ecmascript.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bahmutov/es6-generators-example.git"
+  },
+  "keywords": [
+    "nodejs",
+    "harmony",
+    "es6",
+    "ecmascript6",
+    "generators",
+    "example",
+    "grunt-regenerator",
+    "regenerator"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/es6-generators-example/issues"
+  },
+  "homepage": "https://github.com/bahmutov/es6-generators-example",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-traceur": "0.0.3",
+    "grunt-regenerator": "~0.2.1",
+    "regenerator": "~0.3.4"
+  }
+}
