@@ -75,6 +75,23 @@ if (isHarmony()) {
 }
 ```
 
+## execution
+
+A typical run using node v0.11 using `npm start` command
+
+```sh
+$ npm start
+
+> es6-generators-example@0.0.1 start /Users/gbahmutov/git/es6-generators-example
+> node --harmony pick-ecmascript.js
+
+Harmony!
+1
+2
+4
+9
+```
+
 ## Small print
 
 Author: Gleb Bahmutov &copy; 2013
