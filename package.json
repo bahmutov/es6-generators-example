@@ -4,7 +4,7 @@
   "description": "Using Nodejs ES6 generators today example",
   "main": "pick-ecmascript.js",
   "scripts": {
-    "test": "node --harmony pick-ecmascript.js",
+    "test": "grunt && node --harmony pick-ecmascript.js",
     "start": "node --harmony pick-ecmascript.js"
   },
   "repository": {
